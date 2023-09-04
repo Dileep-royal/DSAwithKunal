@@ -117,7 +117,7 @@ Flowchart are used to visualize our thought process step by step using figures/s
     - If any of the above checks fail, the verifier doesn’t allow the class to be loaded.
 - Just in Time Compiler converts the loaded byte code into machine code.
 
-![Screenshot 2023-06-06 153255.png](Day_00%20Basics%20of%20programming%20a6cf25255eec498bbaff902e656d0265/Screenshot_2023-06-06_153255.png)
+![Screenshot 2023-06-06 153255.png](../Images/Screenshot_2023-06-06_153255.png)
 
 →refer below
 
