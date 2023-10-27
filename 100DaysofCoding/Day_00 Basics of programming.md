@@ -34,7 +34,7 @@ we are going to learn about the different types of languages & memory management
 - Revolves around objects.
 - Code + Data = Object
 - This contains class which acts as a prototype or template of objects.
-- we can create various objects from a class with different functionalities(methods).
+- we can create various objects from a class with different functionalities(methods) and data.
 - Developed to make it easier to develop, debug, reuse and maintain software.
 - java ,python & C++ supports oops principles.
 
