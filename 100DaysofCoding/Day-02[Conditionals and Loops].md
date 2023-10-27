@@ -48,16 +48,18 @@ public class Loops {
         int n=input.nextInt();
         int a=0;
         int b=1;
+        if(n>=1) System.Out.print(a);
+        if(n>=2) System.Out.println(b);
         int count=2;
-        if
-        while(count<=n)
+        while(count<n)
         {
             int temp=a+b;
             a=b;
             b=temp;
             count++;
+            System.out.print(b);
         }
-        System.out.println(b);
+        
         */
 
         // count of a digit repeated in a number
