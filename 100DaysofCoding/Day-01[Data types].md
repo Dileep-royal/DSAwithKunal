@@ -9,8 +9,8 @@ The primitive means which cannot be break further.
 Example are: integer, char, float, double, long, bool
 
 ```java
-byte verySmall=345; // causes error as it exceeds range
-short small= 54436;
+byte verySmall=345; // causes error as it exceeds range // 1 Byte
+short small= 54436; // 2 Bytes
 int a=10;   // 4 Bytes
 long longInteger=8376274325666125L;  // 8 Bytes
 char letter='r';  // 2 Bytes
@@ -18,7 +18,7 @@ char letter='r';  // 2 Bytes
 float pi=3.456f;   // 4 Bytes,  stores upto 7 Decimals
 double some=98898.094877846;  // 8 Bytes,   stores upto 16 Decimals
 int million= 23_00_000; //instead of using comma(,) use underscore (_) 
-boolean age18=true;
+boolean age18=true; // 1 bit
 ```
 
 why float data type value have ended with ‘f’ and long data type value ended with ‘L’?
