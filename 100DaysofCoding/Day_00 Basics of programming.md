@@ -124,7 +124,7 @@ Flowchart are used to visualize our thought process step by step using figures/s
     - Variables are initialized before they are used.
     - Method calls match the types of object references.
     - Rules for accessing private data and methods are not violated.
-    - Local variable accesses fall within the runtime stack.
+    - Local variable accesses fall within the run-time stack.
     - The run-time stack does not overflow.
     - If any of the above checks fail, the verifier doesn’t allow the class to be loaded.
 - Just in Time Compiler converts the loaded byte code into machine code.
