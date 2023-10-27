@@ -1,4 +1,4 @@
-# Day_00 Basics of programming
+# Day_00[Basics of programming]
 
 ## Types of languages & Memory management
 
