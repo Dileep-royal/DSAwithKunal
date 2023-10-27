@@ -14,7 +14,7 @@ public class Loops {
         // if else loop and else if loop
 
         /*
-       int salary=9000;
+        int salary=9000;
         if (salary>20000)
             salary=salary+2000;
         else if (salary<20000 && salary>10000)
