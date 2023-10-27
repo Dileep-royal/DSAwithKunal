@@ -93,7 +93,7 @@ public class Shadowing {
     static int x=10; //this will be shadowed at line 6
     public static void main(String[] args) {
         int x;    // local variable x shadowed the class variable x
-    //    System.out.println(x); // scope will begin when value is intialized
+    //    System.out.println(x); // scope will begin when value is intialized and this line causes an error because of trying to print a unintialized variable.
         x=100;
         System.out.println("value of local variable x: "+x);
         fun();
