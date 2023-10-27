@@ -25,7 +25,7 @@
 [Pure Functions vs Impure Functions in Python - Medium](https://medium.com/@benjamin.BA/pure-functions-vs-impure-functions-in-python-b2f009664ee4)
 
 - Used in ML, to perform different operations on the same dataset
-- First class functions means where we can assign function to a new variable, pass function as a parameter to another function and also returns a function from a function.
+- First class functions means where we can assign function to a variable, pass function as a parameter to another function and also returns a function from a function.
 
 [First Class functions in Python - GeeksforGeeks](https://www.geeksforgeeks.org/first-class-functions-python/)
 
