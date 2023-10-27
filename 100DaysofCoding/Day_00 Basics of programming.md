@@ -1,6 +1,6 @@
 # Day_00[Basics of programming]
 
-## Types of languages & Memory management
+we are going to learn about the different types of languages & memory managements
 
 ### Types of languages
 
