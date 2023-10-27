@@ -88,10 +88,10 @@ Flowchart are used to visualize our thought process step by step using figures/s
     - JRE - To run the programs
     - Development tools- Provides environment which allows you to develop java programs.
     - Development tools are as follows:
-      -> A Compiler - javac
-      -> Archive - jar
-      -> docs generator - javadoc
-      -> Interpreter/ Loader
+      - A Compiler - javac
+      - Archive - jar
+      - docs generator - javadoc
+      - Interpreter/ Loader
 
 ## JRE
 
