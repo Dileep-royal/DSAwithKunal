@@ -18,7 +18,7 @@ char letter='r';  // 2 Bytes
 float pi=3.456f;   // 4 Bytes,  stores upto 7 Decimals
 double some=98898.094877846;  // 8 Bytes,   stores upto 16 Decimals
 int million= 23_00_000; //instead of using comma(,) use underscore (_) 
-boolean age18=true; // 1 bit
+boolean age18=true; // 1 byte 0(false) or 1(true)
 ```
 
 why float data type value have ended with ‘f’ and long data type value ended with ‘L’?
