@@ -33,7 +33,7 @@
 
 - Revolves around objects.
 - Code + Data = Object
-- Contains class which is a prototype or template of objects.
+- This contains class which acts as a prototype or template of objects.
 - we can create various objects from a class with different functionalities(methods).
 - Developed to make it easier to develop, debug, reuse and maintain software.
 - java ,python & C++ supports oops principles.
