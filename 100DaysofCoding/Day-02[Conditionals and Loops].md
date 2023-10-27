@@ -2,7 +2,7 @@
 
 ## Conditionals and Loops + Calculator program
 
-Difference between while and do while loop?
+**Difference between while and do while loop ?**
 
 while loops checks the condition before going to execute the body. whereas do-while is used to execute body of a loop at least once then checks the condition and follow on if the condition is true.
 
