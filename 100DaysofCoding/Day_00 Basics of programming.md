@@ -67,7 +67,7 @@ we are going to learn about the different types of languages & memory management
 
 Flowchart are used to visualize our thought process step by step using figures/symbols like oval, rectangle, rhombus, parallelogram.
 
-- Start/Stop are represented using Oval.
+- Start/Stop are represented using oval.
 - Input/Output are represented using parallelogram.
 - Processing/Logic are represented using rectangle.
 - Conditions are represented using rhombus.
@@ -81,7 +81,6 @@ Flowchart are used to visualize our thought process step by step using figures/s
 - Stands for Java Development Kit.
 - Provides environment to develop and run the java programs.
 - It is a package that includes the following:
-- package
     - Development tools- provide Environment
     - JRE - To run the programs
     - A Compiler - javac
@@ -93,8 +92,7 @@ Flowchart are used to visualize our thought process step by step using figures/s
 
 - Stands for Java Run time Environment.
 - It is a installation package that only provides environment to run the programs.
-- It consists the following:
-- Package
+- It is a package that consists the following:
     - Deployment technologies
     - User interface toolkits
     - Integration libraries
@@ -119,6 +117,6 @@ Flowchart are used to visualize our thought process step by step using figures/s
 
 ![Screenshot 2023-06-06 153255.png](../Images/Screenshot_2023-06-06_153255.png)
 
-→refer below
+→Refer below
 
 [Compilation and Execution of a Java Program - GeeksforGeeks](https://www.geeksforgeeks.org/compilation-execution-java-program/)
