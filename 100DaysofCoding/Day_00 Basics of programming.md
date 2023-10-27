@@ -21,12 +21,14 @@ we are going to learn about the different types of languages & memory management
 - A function is called **Pure function**, if it always returns the same result for same argument values and it has no side effects like modifying an argument or outputting something else because of something that is outside of function(i.e; global variables,...).                   Examples are strlen(), pow(), sqrt() etc.
 - If a function is known as pure to compiler then **[Loop optimization](http://en.wikipedia.org/wiki/Loop_optimization)** and **[subexpression elimination](http://en.wikipedia.org/wiki/Common_subexpression_elimination)** can be applied to it.
 - More about pure functions
+  
 [Pure Functions vs Impure Functions in Python - Medium](https://medium.com/@benjamin.BA/pure-functions-vs-impure-functions-in-python-b2f009664ee4)
 
 - Used in ML, to perform different operations on the same dataset
 - A **First class function** is an instance of object type.
 - First class functions means where we can assign function to a variable, pass function as a parameter to another function, returns a function from a function and also stores a function in a data structures such as hash tables, lists, etc.
 - More about first class functions
+  
 [First Class functions in Python - GeeksforGeeks](https://www.geeksforgeeks.org/first-class-functions-python/)
 
 ### 3. Object oriented
@@ -81,17 +83,19 @@ Flowchart are used to visualize our thought process step by step using figures/s
 - Stands for Java Development Kit.
 - Provides environment to develop and run the java programs.
 - It is a package that includes the following:
-    - Development tools- provide Environment
     - JRE - To run the programs
-    - A Compiler - javac
-    - Archive - jar
-    - docs generator - javadoc
-    - Interpreter/ Loader
+    - Development tools- Provides environment which allows you to develop java programs.
+    - Development tools are as follows:
+      -> A Compiler - javac
+      -> Archive - jar
+      -> docs generator - javadoc
+      -> Interpreter/ Loader
 
 ## JRE
 
 - Stands for Java Run time Environment.
-- It is a installation package that only provides environment to run the programs.
+- It is a installation package that only provides environment to run the programs(not develop).
+- Useful for end users whose requirement is only to run java programs/ applications.
 - It is a package that consists the following:
     - Deployment technologies
     - User interface toolkits
@@ -101,12 +105,19 @@ Flowchart are used to visualize our thought process step by step using figures/s
 
 ## JVM
 
-- Stands for Java Virtual Machine.
+- Stands for Java Virtual Machine and also known as Java Interpreter.
+- It is available in both JDK and JRE.
+- It consists of Class Loader, Byte Code Verifier and Just-in Time(JiT) Compiler.
+→Refer below
+
+[JDK VS JRE VS JVM - GeeksforGeeks](https://www.geeksforgeeks.org/differences-jdk-jre-jvm/)
+## Compilation and Execution of a Java Program
+- We have Java Program, it is compiled using javaC Compiler and gives us the .class file which contains byte code.
 - After we get .class file ,the next thing is passing it through JVM.
-- JVM contains three sections Class loader, Byte Code Verifier and Just in Time(JIT) Compiler.
+- JVM contains three sections Class loader, Byte Code Verifier and Just in Time(JiT) Compiler.
 - Class loader, which loads all the classes to execute the program.
 - Byte Code Verifier is used to check the format of code.
-- Some of checks are
+- Some of checks performed by byte code verifier are:
     - Variables are initialized before they are used.
     - Method calls match the types of object references.
     - Rules for accessing private data and methods are not violated.
@@ -114,7 +125,6 @@ Flowchart are used to visualize our thought process step by step using figures/s
     - The run-time stack does not overflow.
     - If any of the above checks fail, the verifier doesn’t allow the class to be loaded.
 - Just in Time Compiler converts the loaded byte code into machine code.
-
 ![Screenshot 2023-06-06 153255.png](../Images/Screenshot_2023-06-06_153255.png)
 
 →Refer below
