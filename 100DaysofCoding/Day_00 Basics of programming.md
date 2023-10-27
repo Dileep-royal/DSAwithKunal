@@ -21,12 +21,12 @@
 - A function is called **[pure function](http://en.wikipedia.org/wiki/Pure_function)** if it always returns the same result for same argument values and it has no side effects like modifying an argument (or global variable) or outputting something. Examples are strlen(), pow(), sqrt() etc.
 - If a function is known as pure to compiler then **[Loop optimization](http://en.wikipedia.org/wiki/Loop_optimization)** and **[subexpression elimination](http://en.wikipedia.org/wiki/Common_subexpression_elimination)** can be applied to it.
 - More about pure functions
-
 [Pure Functions vs Impure Functions in Python - Medium](https://medium.com/@benjamin.BA/pure-functions-vs-impure-functions-in-python-b2f009664ee4)
 
 - Used in ML, to perform different operations on the same dataset
-- First class functions means where we can assign function to a variable, pass function as a parameter to another function and also returns a function from a function.
-
+- **First class functions** is of a object type.
+- First class functions means where we can assign function to a variable, pass function as a parameter to another function, returns a function from a function and also stores a function in a data structures such as hashset,list, etc.
+- More about first class functions
 [First Class functions in Python - GeeksforGeeks](https://www.geeksforgeeks.org/first-class-functions-python/)
 
 ### 3. Object oriented
