@@ -1,8 +1,8 @@
 # Day_00 Basics of programming
 
-# Types of languages & Memory management
+## Types of languages & Memory management
 
-## Types of languages
+### Types of languages
 
 1. Procedural
 2. Functional
