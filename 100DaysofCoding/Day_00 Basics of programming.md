@@ -22,7 +22,7 @@
 - If a function is known as pure to compiler then **[Loop optimization](http://en.wikipedia.org/wiki/Loop_optimization)** and **[subexpression elimination](http://en.wikipedia.org/wiki/Common_subexpression_elimination)** can be applied to it.
 - More about pure functions
 
-[Pure Functions vs Impure Functions in Python.](https://medium.com/@benjamin.BA/pure-functions-vs-impure-functions-in-python-b2f009664ee4)
+[Pure Functions vs Impure Functions in Python - Medium](https://medium.com/@benjamin.BA/pure-functions-vs-impure-functions-in-python-b2f009664ee4)
 
 - Used in ML, to perform different operations on the same dataset
 - First class functions means where we can assign function to a new variable, pass function as a parameter to another function and also returns a function from a function.
