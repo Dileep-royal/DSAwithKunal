@@ -113,11 +113,11 @@ Flowchart are used to visualize our thought process step by step using figures/s
 
 [JDK VS JRE VS JVM - GeeksforGeeks](https://www.geeksforgeeks.org/differences-jdk-jre-jvm/)
 ## Compilation and Execution of a Java Program
-- We have Java Program, it is compiled using javaC Compiler and gives us the .class file which contains byte code.
+- We have Java Program, it is compiled using **javaC Compiler** and gives us the .class file which contains byte code.
 - After we get .class file ,the next thing is passing it through JVM.
-- JVM contains three sections Class loader, Byte Code Verifier and Just in Time(JiT) Compiler.
-- Class loader, which loads all the classes to execute the program.
-- Byte Code Verifier is used to check the format of code.
+- JVM contains three sections **Class loader, Byte Code Verifier and Just in Time(JiT) Compiler**.
+- **Class loader**, which loads all the classes to execute the program.
+- **Byte Code Verifier** is used to check the format of code.
 - Some of checks performed by byte code verifier are:
     - Variables are initialized before they are used.
     - Method calls match the types of object references.
